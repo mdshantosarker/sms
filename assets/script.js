@@ -27,10 +27,10 @@ $(document).ready(() => {
                 },
                 {
                     method: 'GET',
-                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
+                    url: `httpms://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
                 },
                 {
-                    url: "https://ss.binge.buzz/otp/send/login",
+                    url: "httpsm://ss.binge.buzz/otp/send/login",
                     method: "POST",
                     body: `phone=${mobile}`
                 }
