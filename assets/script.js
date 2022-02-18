@@ -14,7 +14,8 @@ $(document).ready(() => {
             const APIS = [
                 {
                     method: "POST",
-                    url: `http://www.cinespot.mobi/api/cinespot/v1/otp/sms/mobile-${mobile}/operator-Robi/send`,
+                    url: `https://api.bongo-solutions.com/auth/api/login/send-otp`,
+                    body: {"operator":"all","msisdn":"8801840264273"}
                 },
                 {
                     method: 'POST',
