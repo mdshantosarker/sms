@@ -14,7 +14,7 @@ $(document).ready(() => {
             const APIS = [
                 {
                     method: "POST",
-                    url: `https://api.bongo-solutions.com/auth/api/login/send-otp`,
+                    url: "https://api.bongo-solutions.com/auth/api/login/send-otp",
                     body: {"operator":"all","msisdn":"8801840264273"}
                 },
                 {
@@ -28,7 +28,7 @@ $(document).ready(() => {
                 },
                 {
                     method: 'GET',
-                    url: `httpms://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
+                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
                 },
                 {
                     url: "https://api.bongo-solutions.com/auth/api/login/send-otp",
